@@ -1,0 +1,88 @@
+<table border="0" width="99.99%">
+    <tr>
+        <th colspan="2">
+            <div id="accountHolder" class="accountsDiv"></div>
+        </th>
+    </tr>
+    <tr>
+        <th colspan="2">Bigelow Smart Contract-Demo</th>
+    </tr>
+    <tr>
+        <th colspan="2">Sign Up:</th>
+    </tr>
+    <tr>
+        <td width="50%" align="right">
+            I am:
+        </td>
+        <td width="50%" align="left">
+            <select id="youare">
+                <option value="0">EOMB-node</option>
+                <option value="1">IN-node</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%" align="right">
+            Name:
+        </td>
+        <td width="50%" align="left">
+            <input id="name" type="text">
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%" align="right">
+            Field:
+        </td>
+        <td width="50%" align="left">
+            <select id="expertisetype">
+                <option value="0">Contruction</option>
+                <option value="1">Transportation</option>
+                <option value="2">Telecomunication</option>
+                <option value="3">Pharmaceutical</option>
+                <option value="4">Real Estate</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%" align="right">
+            Profitability:
+        </td>
+        <td width="50%" align="left">
+            <input id="years" type="text">
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%" align="right">
+            Capital
+        </td>
+        <td width="50%" align="left">
+            <input id="days" type="text">
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%" align="right">
+            Value $
+        </td>
+        <td width="50%" align="left">
+            <input id="salary" type="text">
+        </td>
+    </tr>
+
+    <tr>
+        <th colspan="2">
+            <button onclick="App.RequestResetData();">Resend Data Now</button>
+            <button onclick="$('#loader').show();$('#content').hide();$('#content').empty();App.LoadLandingPage();">Cancel</button>
+        </th>
+    </tr>
+    <tr>
+        <th colspan="2">
+            <div id="error" class="erroralert"></div>
+        </th>
+    </tr>
+
+</table>
