@@ -152,7 +152,7 @@ App = {
             // 8 
             str += '<tr><td width="50%" align="right">';
             str += '<img src="images/select_' + (App.myProfile.ExpertiseType == 0 ? 'o' : 'x') + '.png">';
-            str += '</td><td width="50%" align="left"><p>Contruction</p></td></tr>';
+            str += '</td><td width="50%" align="left"><p>Construction</p></td></tr>';
             // 9
             str += '<tr><td width="50%" align="right">';
             str += '<img src="images/select_' + (App.myProfile.ExpertiseType == 1 ? 'o' : 'x') + '.png">';
